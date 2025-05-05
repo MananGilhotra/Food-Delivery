@@ -1,0 +1,40 @@
+.best-seller-container {
+    margin-top: 4rem;
+  }
+  
+  .best-seller-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  @media (min-width: 768px) {
+    .best-seller-title {
+      font-size: 1.875rem;
+    }
+  }
+  
+  .best-seller-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .best-seller-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .best-seller-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .best-seller-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
